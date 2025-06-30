@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --olive-green: #8B8C5A;
+  --olive-green-light: #A5A674;
+  --olive-green-dark: #6B6D45;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-olive: var(--olive-green);
+  --color-olive-light: var(--olive-green-light);
+  --color-olive-dark: var(--olive-green-dark);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom wedding theme styles */
+.wedding-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9f6 100%);
+}
+
+.olive-gradient {
+  background: linear-gradient(135deg, var(--olive-green) 0%, var(--olive-green-dark) 100%);
+}
+
+.text-olive {
+  color: var(--olive-green);
+}
+
+.text-olive-dark {
+  color: var(--olive-green-dark);
+}
+
+.bg-olive {
+  background-color: var(--olive-green);
+}
+
+.bg-olive-light {
+  background-color: var(--olive-green-light);
+}
+
+.border-olive {
+  border-color: var(--olive-green);
+}
+
+.hover\:bg-olive-dark:hover {
+  background-color: var(--olive-green-dark);
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Wedding specific typography */
+.wedding-title {
+  font-family: var(--font-geist-sans);
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.wedding-subtitle {
+  font-family: var(--font-geist-sans);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* Logo Animations */
+.logo-animated {
+  position: relative;
+  display: inline-block;
+  color: var(--olive-green);
+  transition: all 0.4s ease;
+  letter-spacing: 0.1em;
+}
+
+.logo-animated::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--olive-green), transparent);
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+}
+
+.logo-animated:hover {
+  letter-spacing: 0.15em;
+  transform: translateY(-1px);
+}
+
+.logo-animated:hover::after {
+  width: 100%;
+}
+
+/* Subtle pulse effect */
+.logo-animated {
+  animation: subtle-pulse 4s ease-in-out infinite;
+}
+
+@keyframes subtle-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
