@@ -16,7 +16,7 @@ export default function Venue() {
       ],
       mapLink: "https://maps.app.goo.gl/rW5PBjggabnFAr2o8",
       phone: "+91 7904495720",
-      email: "karannn21915@gmail.com"
+      email: ""
     }
   ];
 
