@@ -16,6 +16,10 @@
   --color-olive-dark: var(--olive-green-dark);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-cormorant);
+  --font-montserrat: var(--font-montserrat);
+  --font-great-vibes: var(--font-great-vibes);
+  --font-dancing-script: var(--font-dancing-script);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -124,4 +128,26 @@ body {
   50% {
     opacity: 0.85;
   }
+}
+
+/* Radial gradient utility for splash screen */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* Custom font family utilities */
+.font-serif {
+  font-family: var(--font-cormorant), serif;
+}
+
+.font-sans {
+  font-family: var(--font-montserrat), var(--font-geist-sans), sans-serif;
+}
+
+.font-great-vibes {
+  font-family: var(--font-great-vibes), cursive;
+}
+
+.font-dancing-script {
+  font-family: var(--font-dancing-script), cursive;
 }

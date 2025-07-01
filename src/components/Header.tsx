@@ -28,7 +28,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo/Brand */}
           <Link href="/" className="text-2xl font-light wedding-title logo-animated">
-            A & K
+            A&K
           </Link>
 
           {/* Desktop Navigation */}

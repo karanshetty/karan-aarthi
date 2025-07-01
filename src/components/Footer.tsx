@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="wedding-gradient border-t border-olive/20 mt-12">
+    <footer className="wedding-gradient border-t border-olive/20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">

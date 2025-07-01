@@ -1,7 +1,10 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+
   return (
     <div className="wedding-gradient min-h-screen">
       {/* Hero Section */}
@@ -15,7 +18,7 @@ export default function Home() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-light wedding-title text-olive mb-4">
+          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-dancing-script font-semibold text-olive mb-4">
             Karan & Aarthi
           </h1>
           
