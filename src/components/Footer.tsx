@@ -8,9 +8,8 @@ export default function Footer() {
             <div className="text-olive text-2xl">♥</div>
             <div className="w-8 h-px bg-olive"></div>
           </div>
-          
-                    <p className="text-olive wedding-subtitle text-lg mb-2">
-            Karan & Aarthi
+          <p className="text-olive wedding-subtitle text-lg mb-2">
+            Aarthi & Karan
           </p>
           
           <p className="text-olive/70 text-sm">

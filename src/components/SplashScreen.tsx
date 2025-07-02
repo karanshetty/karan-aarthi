@@ -181,7 +181,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
         {/* Names */}
         <div className="mb-8 space-y-2">
           <h1 className="font-dancing-script text-7xl md:text-8xl font-semibold text-olive-dark mb-4">
-            Karan
+          Aarthi
           </h1>
           
           <div className="font-dancing-script text-4xl text-olive-light mb-4">
@@ -189,7 +189,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
           </div>
           
           <h1 className="font-dancing-script text-7xl md:text-8xl font-semibold text-olive-dark">
-            Aarthi
+          Karan
           </h1>
         </div>
 

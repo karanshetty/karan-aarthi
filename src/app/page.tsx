@@ -19,7 +19,7 @@ export default function Home() {
 
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-dancing-script font-semibold text-olive mb-4">
-            Karan & Aarthi
+            Aarthi & Karan
           </h1>
           
           <p className="text-lg sm:text-xl text-olive/80 wedding-subtitle mb-12">
