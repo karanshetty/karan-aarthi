@@ -51,8 +51,8 @@ export default function Home() {
                     <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-light text-olive wedding-title mb-2">Wedding Date</h3>
-                <p className="text-lg text-olive-dark">July 14, 2025</p>
+                <h3 className="text-lg font-light text-olive-dark wedding-title mb-2">Wedding Date</h3>
+                <p className="text-2xl text-olive">July 14, 2025</p>
                 <p className="text-olive/70">Monday</p>
               </div>
 
@@ -63,8 +63,8 @@ export default function Home() {
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-light text-olive wedding-title mb-2">Venue</h3>
-                <p className="text-lg text-olive-dark">RV Mahal</p>
+                <h3 className="text-lg font-light text-olive-dark wedding-title mb-2">Venue</h3>
+                <p className="text-2xl text-olive">RV Mahal</p>
                 <p className="text-olive/70">Thakkalur, Karaikal, Puducherry</p>
               </div>
             </div>
