@@ -5,7 +5,7 @@ export default function Details() {
         date: "July 13, 2025",
         day: "Sunday",
         time: "7:00 PM - 11:00 PM", 
-        venue: "RV Mahal",
+        venue: "RV Mahal, Karaikal",
         description: "Dinner and celebration"
       },
       {
@@ -13,7 +13,7 @@ export default function Details() {
         date: "July 14, 2025",
         day: "Monday", 
         time: "6:00 AM - 8:00 AM",
-        venue: "RV Mahal",
+        venue: "RV Mahal, Karaikal",
         description: "Sacred wedding rituals and ceremonies"
       }
     ];

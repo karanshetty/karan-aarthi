@@ -18,7 +18,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
     // Auto-transition after 3 seconds
     const timer2 = setTimeout(() => {
       handleExit();
-    }, 3000);
+    }, 2000);
 
     return () => {
       clearTimeout(timer1);

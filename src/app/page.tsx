@@ -64,7 +64,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-light text-olive-dark wedding-title mb-2">Venue</h3>
-                <p className="text-2xl text-olive">RV Mahal</p>
+                <p className="text-2xl text-olive">RV Mahal, Karaikal</p>
                 <p className="text-olive/70">Thakkalur, Karaikal, Puducherry</p>
               </div>
             </div>

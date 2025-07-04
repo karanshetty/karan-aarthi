@@ -1,7 +1,7 @@
 export default function Venue() {
   const venues = [
     {
-      name: "RV Mahal",
+      name: "RV Mahal, Karaikal",
       type: "Reception & Wedding Venue",
       address: "RV Mahal Thakkalur, Karaikal, Dharmapuram, Puducherry 609602",
       description: "A beautiful and traditional wedding venue located in the serene surroundings of Thakkalur, Karaikal. RV Mahal offers an elegant setting with traditional architecture and modern amenities, perfect for creating unforgettable memories on your special day.",
